@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="./fonts/gilroy/stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <title>MNTN</title>
@@ -42,7 +43,7 @@
     <main class="main">
         <section class="promo">
             <div class="promo__container">
-                <h2 class="promo__text">A Hiking guide</h2>
+                <h2 class="promo__text wow animate__animated animate__fadeInRight">A Hiking guide</h2>
                 <h1 class="promo__title">Be prepared for the Mountains and beyond!</h1>
                 <a href="#down" class="promo__link">scroll down</a>
             </div>
@@ -52,7 +53,7 @@
             <div class="container">
                 <div class="prewiev__block prewiev__block-first">
                     <div class="prewiev__block-text">
-                        <h3 class="prewiev__block-paragraph">Get Started</h3>
+                        <h3 class="prewiev__block-paragraph wow animate__animated animate__fadeInLeft" data-wow-offset="200">Get Started</h3>
                         <h2 class="prewiev__block-title">What level of  hiker are you?</h2>
                         <p class="prewiev__block-info">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</p>
                         <a href="#" class="prewiev__block-link">read more</a>
@@ -64,7 +65,7 @@
 
                 <div class="prewiev__block prewiev__block-second">
                     <div class="prewiev__block-text">
-                        <h3 class="prewiev__block-paragraph">Hiking Essentials</h3>
+                        <h3 class="prewiev__block-paragraph wow animate__animated animate__fadeInLeft" data-wow-offset="200">Hiking Essentials</h3>
                         <h2 class="prewiev__block-title">Picking the right Hiking Gear!</h2>
                         <p class="prewiev__block-info">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
                         <a href="#" class="prewiev__block-link">read more</a>
@@ -76,7 +77,7 @@
 
                 <div class="prewiev__block prewiev__block-third">
                     <div class="prewiev__block-text">
-                        <h3 class="prewiev__block-paragraph">Where you go is the key</h3>
+                        <h3 class="prewiev__block-paragraph wow animate__animated animate__fadeInLeft" data-wow-offset="200">Where you go is the key</h3>
                         <h2 class="prewiev__block-title">Understand Your Map & Timing</h2>
                         <p class="prewiev__block-info">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
                         <a href="#" class="prewiev__block-link">read more</a>
@@ -125,6 +126,10 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/script.min.js"></script>
 </body>
 </html>
