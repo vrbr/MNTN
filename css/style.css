@@ -3,6 +3,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     margin: 0 auto;
@@ -15,6 +16,7 @@ body {
     background-repeat: no-repeat;
     font-size: 18px;
     color: #fff;
+    overflow-x: hidden;
 }
 
 /*header*/
@@ -431,6 +433,9 @@ body {
     .prewiev__block-paragraph {
         font-size: 20px;
     }
+    .footer__container {
+        padding-bottom: 50px;
+    }
 }
 
 @media(max-width: 650px) {
@@ -487,7 +492,7 @@ body {
     .toggle {
         display: block;
         position: absolute;
-        top: 40px;
+        top: 39px;
         right: 76px;
         width: 22px;
         height: 20px;
